@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>theXype.com</title>
+    </head>
+    <body>
+        <header class="header-main">
+            <nav>
+                <div class="row">
+                    <a href="index.html"><img src="resources/img/logo.png" alt="theXype Logo" class="logo"></a>              
+                    <ul class="main-nav">
+                        <li><a href="releases.html">Releases</a></li>
+                        <li><a href="#">Instructions</a></li>
+                        <li><a href="#">Droplist</a></li>
+                        <li><a href="#">What is Xype</a></li>
+                    </ul>
+                </div>
+            </nav> 
+        </header>
+        <section class="section-contact">
+            <div class="row">
+                <h2>Contact us with any question!</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>E-Mail</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your E-Mail address" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Your Question</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="questions" id="questions">
+                                <option value="selling">Selling my pair</option>
+                                <option value="money">Getting my money</option>
+                                <option value="other">Other question</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Newsletter?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" name="news" id="news" checked> Yes, please.
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Enter your message here</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send your message">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer-main">
+            <div class="row footer-links">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="contact.html">Contact</a></li> 
+                        <li><a href="#">About theXype</a></li> 
+                        <li><a href="#">Terms of Service</a></li> 
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><ion-icon name="logo-facebook" class="facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter" class="twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram" class="instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2019 by theXype. All rights reserved.
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

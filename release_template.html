@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+        <title>theXype.com</title>
+    </head>
+        <body>
+            <header class="header-main">
+                <nav>
+                    <div class="row">    
+                        <a href="index.html"><img src="resources/img/logo.png" alt="theXype Logo" class="logo"></a>
+                        <ul class="main-nav">
+                            <li><a href="releases.html">Releases</a></li>
+                            <li><a href="#">Instructions</a></li>
+                            <li><a href="#">Droplist</a></li>
+                            <li><a href="#">What is Xype</a></li>
+                        </ul>
+                    </div>
+                </nav> 
+            </header>
+            <section class="main-release">
+            <h1>Brand<br>Model</h1>
+            <h2>Colorway</h2>
+                <div class="row-release">
+                    <div class="col span-1-of-2">
+                        <img class="release-main-img" src="resources/img/logo.png" alt="Brand/Model/Colorway">
+                    </div>
+                    <div class="col span-1-of-2">
+                        <div class="size-chart" id="modalBtn">
+                        <ul class="size-block">
+                            <li class="size-3-5"></li>
+                            <li class="size-4"></li>
+                            <li class="size-4-5"></li>
+                            <li class="size-5 "></li>
+                            <li class="size-5-5"></li>
+                        </ul>
+                         <ul class="size-block">
+                            <li class="size-6"></li>
+                            <li class="size-6-5"></li>
+                            <li class="size-7"></li>
+                            <li class="size-7-5"></li>
+                            <li class="size-8"></li>
+                        </ul>
+                         <ul class="size-block">
+                            <li class="size-8-5"></li>
+                            <li class="size-9"></li>
+                            <li class="size-9-5"></li>
+                            <li class="size-10"></li>
+                            <li class="size-10-5"></li>
+                        </ul>
+                         <ul class="size-block">
+                            <li class="size-11"></li>
+                            <li class="size-11-5"></li>
+                            <li class="size-12"></li>
+                            <li class="size-12-5"></li>
+                            <li class="size-13"></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-release">
+                    <div class="droplinks">
+                        <h3>Where to buy?</h3>
+                        <div class="col span-1-of-3">
+                            <div class="shop-table">
+                                <ul>
+                                    <li>Shop 1</li>
+                                    <li>Shop 2</li>
+                                    <li>Shop 3</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <div class="link-table">
+                                <ul>
+                                    <li>Link 1</li>
+                                    <li>Link 2</li>
+                                    <li>Link 3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="description">
+                        <h3>About the release</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="size-modal" id="sizeModal">
+                    <div class="modal-content">
+                        <span class="close-modal" id="closeBtn">&times;</span>
+                        <div class="modal-row">
+                            <div class="col span-1-of-3">
+                                <img src="resources/img/adidasyeezyboost350v2trueform.png" alt="Brand/Model/Colorway">
+                            </div>
+                            <div class="col span-2-of-3">
+                                <div class="modal-description">
+                                    <p>Brand/Model
+                                    <br>Colorway</p>
+                                    <span>Size:</span>
+                                    <span id="sizeValue"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eos"></div>
+                        <div class="resell-value">
+                            <div class="col span-2-of-3">
+                                <p class="price-text">We are buying this pair for:</p>
+                            </div>
+                            <div class="col span-1-of-3">
+                                <p class="price-value" id="priceValue"></p>
+                            </div>
+                        </div>
+                        <a href="#"><button class="resell-btn">Resell  now</button></a>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer-main">
+            <div class="row footer-links">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="contact.html">Contact</a></li> 
+                        <li><a href="#">About theXype</a></li> 
+                        <li><a href="#">Terms of Service</a></li> 
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><ion-icon name="logo-facebook" class="facebook"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter" class="twitter"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram" class="instagram"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2019 by theXype. All rights reserved.
+                </p>
+            </div>
+        </footer>
+        <script src="resources/js/main.js"></script>
+        <script src="resources/js/releases/release_template.js"></script>
+        </body>
+</html>
